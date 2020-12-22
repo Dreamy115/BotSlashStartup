@@ -51,7 +51,7 @@ Bot.once('ready', async ()=>{
     let returned:any = null;
 
     try {
-      returned = await res.run(args,db);
+      returned = await res.run(interaction,args,db);
     } catch(e) {
       returned = '```\n'+e+'```';
     }

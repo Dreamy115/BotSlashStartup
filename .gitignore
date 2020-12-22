@@ -108,3 +108,7 @@ dist
 
 # Output files
 out/
+
+# Save
+save.dab
+save.dab-journal

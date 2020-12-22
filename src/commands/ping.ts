@@ -5,8 +5,8 @@ import sqlite3 from 'sqlite3';
 
 const response:Response = {
   type: InType.ACK_WITH_SOURCE,
-  run: async function(args:any,db:SQL.Database<sqlite3.Database, sqlite3.Statement>){
-    return;
+  run: async function(interaction:any,args:any,db:SQL.Database<sqlite3.Database, sqlite3.Statement>){
+    return `Hello, ${interaction.member.user.username}!`
   }
 }
 

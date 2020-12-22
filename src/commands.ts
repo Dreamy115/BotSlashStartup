@@ -18,7 +18,7 @@ for(let file of cfiles){
 }
 
 interface Response {
-  run:(args:any,db:SQL.Database<sqlite3.Database, sqlite3.Statement>)=>Promise<any>,
+  run:(interaction:any,args:any,db:SQL.Database<sqlite3.Database, sqlite3.Statement>)=>Promise<any>,
   type:InteractionResponseType
 }
 
