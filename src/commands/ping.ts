@@ -6,7 +6,7 @@ import sqlite3 from 'sqlite3';
 const response:Response = {
   type: InType.ACK_WITH_SOURCE,
   run: async function(args:any,db:SQL.Database<sqlite3.Database, sqlite3.Statement>){
-    throw new Error('test error')
+    return;
   }
 }
 
