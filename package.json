@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dreamy115",
-  "license": "CC-BY-SA-4.0",
+  "license": "MIT",
   "dependencies": {
     "@types/node": "^14.14.14",
     "discord.js": "^12.5.1",
